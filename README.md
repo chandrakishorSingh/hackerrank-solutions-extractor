@@ -34,7 +34,7 @@ You can add support for other languages by adding a new entry in ```fileExtensio
 By default, this tool extracts only those submissions that have obtained 100%. You can change this criteria and specify some other(see [main.js](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/main.js#L21) file). Also you can change the file name of each submission which currently uses the challenge name. I suggest you to extract the .gz file that you downloaded from HackerRank and explore it to customize the behaviour according to your need. This includes various other data that you might be interested in.
 
 # Supported Languages
-This tool can extract submissions written in following languages. However, you can add other languages easily. See [configuration.](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/new/master?readme=1#configuration)
+This tool can extract submissions written in following languages. However, you can add other languages easily. See [configuration.](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor#configuration)
 
 - C
 - C++/C++14
