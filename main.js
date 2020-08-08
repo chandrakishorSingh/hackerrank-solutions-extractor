@@ -89,7 +89,7 @@ async function main() {
     const file = fs.readFileSync(path.join(process.cwd(), process.argv[2]));
     const profileData = await getProfileData(file);
 
-    const SUBMISSIONS_FOLDER = './submissions';
+    const SUBMISSIONS_FOLDER = path.join('submissions');
     if (fs.existsSync(SUBMISSIONS_FOLDER)) {
         console.log(`${chalk.bold.red('Error! : A folder named submissions already exists. Delete this folder as it is going to be used for saving your code submissions.')}`);
         process.exit(0);
