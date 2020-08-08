@@ -27,7 +27,7 @@ You can configure this tool to add support for other programming languages(see [
 
 **1. Adding support for other languages**
 
-You can add support for other languages by adding a new entry in ```fileExtensionMap``` variable of ```utils.js``` file([go to file](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/utils.js#L8)).
+Currently, this tool can extract submissions written in some popular languages like C++, JAVA, Python and few others(see [supported languages](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor#supported-languages)). However, you can add support for other languages by adding a new entry in ```fileExtensionMap``` variable of ```utils.js``` file([go to file](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/utils.js#L8)).
 
 **2. Filtering submissions according to some condition**
 
