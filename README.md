@@ -23,7 +23,7 @@ A tool to extract all of your submissions from [HackerRank](https://www.hackerra
   - To only extract submissions that have got 100% score : Open a terminal and run ```node main.js <path-to-your-profile-data.json.gz>```
   
 # Configuration
-You can configure this tool to add support for other programming languages(see [supported languages](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/new/master?readme=1#supported-languages)), filter the submissions according to some conditions(eg. extracting all submissions that have scored > 60%).
+You can configure this tool to add support for other programming languages(see [supported languages](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor#supported-languages)), filter the submissions according to some conditions(eg. extracting all submissions that have scored > 60%).
 
 **1. Adding support for other languages**
 
@@ -31,7 +31,7 @@ You can add support for other languages by adding a new entry in ```fileExtensio
 
 **2. Filtering submissions according to some condition**
 
-By default, this tool extracts only those submissions that have obtained 100%. You can change this criteria and specify some other(see [main.js](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/main.js#L21)) file. Also you can change the file name of each submission which currently uses the challenge name. I suggest you to extract the .gz file that you downloaded from HackerRank and explore it to customize the behaviour according to your need. This includes various other data that you might be interested in.
+By default, this tool extracts only those submissions that have obtained 100%. You can change this criteria and specify some other(see [main.js](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/main.js#L21) file). Also you can change the file name of each submission which currently uses the challenge name. I suggest you to extract the .gz file that you downloaded from HackerRank and explore it to customize the behaviour according to your need. This includes various other data that you might be interested in.
 
 # Supported Languages
 This tool can extract submissions written in following languages. However, you can add other languages easily. See [configuration.](https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/new/master?readme=1#configuration)
