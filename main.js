@@ -51,19 +51,22 @@ const printSubmissionsStats = (submissions) => {
 
 // This function returns the file name for the given submission. By default it is the name of challenge. However, you can change it but ensure that it is unique.
 // The submission obj has `contest`, `challenge`, `code`, `score` and `language` fields.
-const allFileNames = new Map();
 const getFileName = (submission) => {
+    if (!getFileName.allFileNames) {
+        getFileName.allFileNames = new Map();
+    }
+
     let fileName = submission.challenge.split('').reduce((a, b) => {
         return a + (/[a-zA-Z0-9-_ ]/.test(b) ? b : '');
     }, '');
 
     let filePath;
-    if (allFileNames.has(fileName)) {
-        filePath = fileName + `- ${allFileNames.get(fileName)}`;
-        allFileNames.set(fileName, allFileNames.get(fileName) + 1);
+    if (getFileName.allFileNames.has(fileName)) {
+        filePath = fileName + `- ${getFileName.allFileNames.get(fileName)}`;
+        getFileName.allFileNames.set(fileName, getFileName.allFileNames.get(fileName) + 1);
     } else {
         filePath = fileName;
-        allFileNames.set(fileName, 1);
+        getFileName.allFileNames.set(fileName, 1);
     }
 
     return filePath + '.' + fileExtensionMap.get(submission.language).extension;
