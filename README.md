@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/os-linux-brightgreen">
   <img src="https://img.shields.io/badge/os-mac-brightgreen">
   <img src="https://img.shields.io/badge/os-windows-brightgreen">
-  <img src="https://img.shields.io/badge/os-android-brightgreen">
   <br>
   <h1 align="center">HackerRank Solutions Extractor
     <br>
