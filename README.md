@@ -1,3 +1,24 @@
+<p align=center>
+  <br>
+  <a href="http://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a>
+  <img src="https://img.shields.io/badge/os-linux-brightgreen">
+  <img src="https://img.shields.io/badge/os-mac-brightgreen">
+  <img src="https://img.shields.io/badge/os-windows-brightgreen">
+  <img src="https://img.shields.io/badge/os-android-brightgreen">
+  <br>
+  <h1 align="center">HackerRank Solutions Extractor
+    <br>
+    <a href="https://github.com/chandrakishorSingh">
+      <img src="https://img.shields.io/badge/maintainer-chandrakishorSingh-blue">
+    </a>
+  </h1>
+</p>
+
+
+https://user-images.githubusercontent.com/42005550/194734763-f14e4bcc-8e15-4078-a647-5f755ed597ed.mp4
+
+
+
 # About
 A tool to extract all of your submissions from [HackerRank](https://www.hackerrank.com).
 
