@@ -11,6 +11,12 @@
     <a href="https://github.com/chandrakishorSingh">
       <img src="https://img.shields.io/badge/maintainer-chandrakishorSingh-blue">
     </a>
+    <a href="https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/stargazers">
+      <img alt="GitHub stars" src="https://img.shields.io/github/stars/chandrakishorSingh/hackerrank-solutions-extractor">
+    </a>
+    <a href="https://github.com/chandrakishorSingh/hackerrank-solutions-extractor/blob/master/LICENSE">
+      <img alt="GitHub license" src="https://img.shields.io/github/license/chandrakishorSingh/hackerrank-solutions-extractor">
+    </a>
   </h1>
 </p>
 
